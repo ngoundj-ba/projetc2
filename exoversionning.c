@@ -14,6 +14,14 @@ int main(){
         printf("le nombre que vous avez saisie est :%d",x);
 
     }
+    if(x%2==0){
+            somme+=x;
+            cpt++;
+            moy=somme/cpt;
+        printf("la moyenne des pairs est %d",moy);
+    }
+    }
+
 
 
 
